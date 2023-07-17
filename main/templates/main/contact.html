@@ -1,0 +1,80 @@
+{% extends 'main/base.html' %}
+{% load static %}
+<title>{% block title %}Contact{% endblock %}</title>
+
+{% block head %}
+<style>
+    body {
+        background-image: url("{% static 'images/14.jpg' %}");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-page {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-bottom: 30px;
+    }
+
+    .contact-info p {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #fff; /* Set text color to white */
+    }
+
+    .social-media-icons {
+        margin-top: 30px;
+    }
+
+    .social-media-icons a {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 36px;
+        color: #fff; /* Set icon color to white */
+    }
+
+    .social-media-icons a:hover {
+        color: #ccc; /* Set hover color for icons */
+    }
+
+    .contact-info a {
+        color: #fff; /* Set link color to white */
+        text-decoration: none;
+    }
+
+    .contact-info a:hover {
+        color: #ccc; /* Set hover color for links */
+    }
+    
+    .contact-info h2 {
+        color: #fff; /* Set "Contact Us" text color to white */
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="contact-page">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <h2 class="mb-4">Contact Us</h2>
+                    <p class="lead mb-3">Phone Number: <a href="tel:+1234567920">07054444437</a></p>
+                    <p class="mb-3">Instagram: <a href="https://www.instagram.com/_cleaninghub" target="_blank">@_cleaninghub</a></p>
+                    <p class="mb-3">Twitter: <a href="https://twitter.com/_cleaninghub" target="_blank">@_cleaninghub</a></p>
+                    <p class="mb-0">Address: 1234 Lagos Nigeria</p>
+                </div>
+                <div class="social-media-icons">
+                    <a href="https://www.instagram.com/_cleaninghub" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/_cleaninghub" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+

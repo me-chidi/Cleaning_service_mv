@@ -1,0 +1,51 @@
+.body{
+    background-color: #000;
+    color: #fff;
+}
+.top-bar{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.left-content{
+    display: flex;
+    align-items: center;
+}
+.cleaning-hub{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.cleaning-hub-text{
+    font-size: 24px;
+    color: white;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu li{
+    margin:0 10px;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+} 
+.menu li a:hover {
+    color: black;
+} 
+.login-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #333;
+}
