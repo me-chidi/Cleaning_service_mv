@@ -1,0 +1,1 @@
+Cleaning hub is a web application for cleaning service that allows users to browse available services, register, login and book a cleaning service of their choice.The application is designed to be user-friendly and visually appealing, with appropriate  form validation and error handling
